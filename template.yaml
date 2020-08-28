@@ -33,12 +33,13 @@ Parameters:
     Default: prod
   CognitoDomainName:
     Type: String
-    Default: mytodoappdemo
+    Default: tonster-demo
 
   # For Amplify Console frontend hosting
   Repository:
     Type: String
     Description: GitHub Repository URL
+    Default: git@github.com:davidetonti/lambda-refarch-webapp.git
   Branch:
     Type: String
     Description: GitHub Branch
@@ -47,6 +48,7 @@ Parameters:
     Type: String
     Description: GitHub Repository URL
     NoEcho: true
+    Default: 2f08329f0e1391f3866babf4797da26963136cfb
 
 Resources:
 
